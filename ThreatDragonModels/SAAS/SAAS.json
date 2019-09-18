@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "title": "SAAS"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Anti-Virus base cloud",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
