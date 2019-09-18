@@ -8,7 +8,269 @@
       {
         "title": "Anti-Virus base cloud",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 998,
+                "y": 1
+              },
+              "angle": 0,
+              "id": "c3592e96-6f50-46c7-8508-a1f2b723623d",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Anti-Virus as a\nService"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 68,
+                "y": 194
+              },
+              "angle": 0,
+              "id": "90d75d27-1506-4e07-a58a-56abc4cb6b6c",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "User (Mobile App\nMonitor)"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 998,
+                "y": 127
+              },
+              "angle": 0,
+              "id": "1657cf39-be62-47e5-a59f-31f3b8b7c253",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Platform as a\nservice"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 1001,
+                "y": 250
+              },
+              "angle": 0,
+              "id": "4723c3f6-d901-42d3-bc59-07aff5ca7013",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Infrastructure\nas a service"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 66,
+                "y": 302
+              },
+              "angle": 0,
+              "id": "87d134de-5764-4f27-8168-81b9ab43130d",
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Attacker (outsider)"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 976,
+                "y": 432
+              },
+              "angle": 0,
+              "id": "606e1bee-e0b7-47b9-a64f-0cf14cdb5fe5",
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Attacker (Insider)"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 229,
+                "y": 223
+              },
+              "target": {
+                "x": 996,
+                "y": 44
+              },
+              "vertices": [],
+              "id": "9fd6832f-9d75-43e3-aff0-0738365dfc84",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Submit (a request) for\nscanning",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 1005,
+                "y": 78
+              },
+              "target": {
+                "x": 228,
+                "y": 263
+              },
+              "vertices": [
+                {
+                  "x": 691,
+                  "y": 221
+                }
+              ],
+              "id": "043fbaf8-3563-4c5a-b663-06095c99cdbb",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Response, Scanning\nStarts",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 704,
+                "y": 37
+              },
+              "target": {
+                "x": 836,
+                "y": 246
+              },
+              "vertices": [
+                {
+                  "x": 739,
+                  "y": 118
+                }
+              ],
+              "id": "8ecde3e2-dfc8-40a2-890f-bf3c260bdb28",
+              "z": 10,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 593,
+          "width": 1447
+        }
       }
     ]
   }
