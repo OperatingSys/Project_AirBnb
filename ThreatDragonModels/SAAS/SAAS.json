@@ -6,7 +6,7 @@
     "contributors": [],
     "diagrams": [
       {
-        "title": "Anti-Virus base cloud",
+        "title": "Anti-Virus Based Cloud",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0,
         "diagramJson": {
@@ -185,7 +185,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Submit (a request) for\nscanning",
+                      "text": "Submit (a request) for\nscanning (API)",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -226,7 +226,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Response, Scanning\nStarts",
+                      "text": "Response, Scanning\nStarts (API)",
                       "font-weight": "400",
                       "font-size": "small"
                     }
