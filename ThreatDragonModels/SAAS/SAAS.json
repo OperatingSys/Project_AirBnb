@@ -18,8 +18,8 @@
                 "height": 100
               },
               "position": {
-                "x": 998,
-                "y": 1
+                "x": 1001,
+                "y": 26
               },
               "angle": 0,
               "id": "c3592e96-6f50-46c7-8508-a1f2b723623d",
@@ -70,8 +70,8 @@
                 "height": 100
               },
               "position": {
-                "x": 998,
-                "y": 102
+                "x": 999,
+                "y": 127
               },
               "angle": 0,
               "id": "1657cf39-be62-47e5-a59f-31f3b8b7c253",
@@ -96,8 +96,8 @@
                 "height": 100
               },
               "position": {
-                "x": 999,
-                "y": 203
+                "x": 1000,
+                "y": 229
               },
               "angle": 0,
               "id": "4723c3f6-d901-42d3-bc59-07aff5ca7013",
@@ -122,8 +122,8 @@
                 "height": 80
               },
               "position": {
-                "x": 65,
-                "y": 342
+                "x": 64,
+                "y": 410
               },
               "angle": 0,
               "id": "87d134de-5764-4f27-8168-81b9ab43130d",
@@ -148,8 +148,8 @@
                 "height": 80
               },
               "position": {
-                "x": 972,
-                "y": 336
+                "x": 977,
+                "y": 462
               },
               "angle": 0,
               "id": "606e1bee-e0b7-47b9-a64f-0cf14cdb5fe5",
@@ -175,8 +175,7 @@
                 "y": 223
               },
               "target": {
-                "x": 996,
-                "y": 44
+                "id": "c3592e96-6f50-46c7-8508-a1f2b723623d"
               },
               "vertices": [],
               "id": "9fd6832f-9d75-43e3-aff0-0738365dfc84",
@@ -207,8 +206,8 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "x": 1005,
-                "y": 78
+                "x": 1022,
+                "y": 120
               },
               "target": {
                 "x": 228,
@@ -264,6 +263,32 @@
               "id": "8ecde3e2-dfc8-40a2-890f-bf3c260bdb28",
               "z": 10,
               "attrs": {}
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 977,
+                "y": 356
+              },
+              "angle": 0,
+              "id": "08c9c4ab-cabd-4f0a-8f24-2a6f3103f763",
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Cloud Provider"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
